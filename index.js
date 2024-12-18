@@ -1,9 +1,11 @@
-import { LitElement, html } from "lit";
+import { LitElement } from "lit";
+import { html, literal } from 'lit/static-html.js';
 
 class MyElement extends LitElement {
   render () {
+    const tag = literal`button`
     return html`
-      <button><slot></slot></my-button>
+      <${tag}><slot></slot></${tag}>
     `
   }
 }
