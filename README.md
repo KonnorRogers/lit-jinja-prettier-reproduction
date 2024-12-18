@@ -25,4 +25,3 @@ You should see the following error:
 [error]     |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [error]   3 |
 ```
-
